@@ -1,0 +1,36 @@
+ body {
+    background: #242424; /* Цвет фона */
+    color: #FF500F; /* Цвет текста */
+   }
+
+.dos {
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-size: 200%;
+  text-align: left;
+}
+.os {
+	animation-duration: 3s;
+  animation-name: slidein;
+  font-size: 200%;
+  text-align: center;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+img {
+  float: right; /* Выравнивание по правому краю */
+  margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+  border: 3px solid #000000;
+}

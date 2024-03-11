@@ -1,0 +1,34 @@
+ body {
+    background: 808080; /* Цвет фона */
+    color: #000; /* Цвет текста */
+   }
+img {
+    border: 3px solid #000000;
+   }
+
+.dos {
+   	text-align: center; /* Выравнивание по центру */
+    	}
+
+p {
+	letter-spacing: 3px;
+}
+
+
+.Sod {
+   	text-align: center; /* Выравнивание по центру */ 
+	}
+	
+.text {
+	border-style: ridge;	/*стиль рамки*/
+	border-width: 1px;  	/*устанавливает ширину границы */
+	border-width: medium;	/*устанавливает ширину границы */
+	border-color: black;		/*цвет рамки*/
+	border-radius: 30px;	/*скругление границ рамки*/
+   	text-align: center; 	/* Выравнивание по центру */
+
+}
+
+body {
+  background: linear-gradient(66deg, #FFFFFF, #000000); /* Градиент на фоне */
+}
